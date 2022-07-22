@@ -1,3 +1,31 @@
 body {
   background: papayawhip;
 }
+@media screen and (max-width: 660px) {
+  body {
+    background-color: whitesmoke;
+    text-align: center;
+  }
+}
+.container{
+  display: flex;
+  flex-direction: column;
+}
+.a{
+  border: 1em solid red;
+}
+.b{
+  border: 1em solid blue;
+}
+.c{
+  border: 1em solid black;
+}
+.d{
+  border: 1em solid red;
+}
+.e{
+  border: 1em solid blue;
+}
+.f{
+  border: 1em solid black;
+}
